@@ -1,0 +1,39 @@
+{
+  "name": "tic-tac-nodejsact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "test": "mocha --recusive --exit --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jusmak1/tic-tac-toe-node-api.git"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "node.js"
+  ],
+  "author": "Justinas Makuška",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.1.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "mocha": "^8.0.1",
+    "supertest": "^4.0.2"
+  }
+}
